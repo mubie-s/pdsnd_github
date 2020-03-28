@@ -45,7 +45,7 @@ def get_filters():
             break
 
 
-    print('*'*80)
+    print('+'*90)
     return city, month, day
 
 
@@ -112,7 +112,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def station_stats(df):
@@ -140,7 +140,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def trip_duration_stats(df):
@@ -161,7 +161,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def user_stats(df):
@@ -209,7 +209,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def display(df):
