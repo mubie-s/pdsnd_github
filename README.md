@@ -18,4 +18,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://stackoverflow.com/questions/21600439/should-i-commit-gitignore-file
+https://guides.github.com/features/mastering-markdown/
