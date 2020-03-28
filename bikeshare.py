@@ -22,7 +22,7 @@ def get_filters():
         if city in CITY_DATA:
             break
         else:
-            print("Oops, invalid city name")
+            print("City name is invalid")
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -30,7 +30,7 @@ def get_filters():
     while True:
         month = input("Enter desired month: ")
         if month not in months_:
-            print("Oops, specified month not available in data")
+            print("Specified month is unavailable")
         else:
             break
 
@@ -40,12 +40,12 @@ def get_filters():
     while True:
         day = input("Enter desired day: ")
         if day not in week_days:
-            print("Oops, specified day invalid")
+            print("Specified day is invalid")
         else:
             break
 
 
-    print('*'*80)
+    print('+'*90)
     return city, month, day
 
 
@@ -112,7 +112,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def station_stats(df):
@@ -140,7 +140,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def trip_duration_stats(df):
@@ -161,7 +161,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def user_stats(df):
@@ -209,7 +209,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('*'*80)
+    print('+'*90)
 
 
 def display(df):
